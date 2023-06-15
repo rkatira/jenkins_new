@@ -1,0 +1,11 @@
+//REXEXC01 JOB (5990),'BATCH IVP',CLASS=A,MSGCLASS=X,NOTIFY=&SYSUID,    00020000
+//      TIME=NOLIMIT                                                    00030000
+//**********************************************************************00040000
+//**********************************************************************00050000
+//REXJ     EXEC PGM=IKJEFT01,DYNAMNBR=45                                00060000
+//SYSPROC  DD DISP=SHR,DSN=TS6732.TEST.JENKINS                          00070000
+//SYSTSPRT DD SYSOUT=*                                                  00080000
+//SYSTSIN  DD *                                                         00090000
+%SMPREX01                                                               00100000
+//*                                                                     00110000
+//                                                                      00120000
